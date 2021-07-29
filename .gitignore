@@ -32,3 +32,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+.eslintcache
+next-env.d.ts
+
+# others
+.6
+
