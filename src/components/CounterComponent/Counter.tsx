@@ -19,6 +19,10 @@ const Counter = ({ description, defaultCount }: CounterProps) => {
 
   return (
     <div>
+      <label htmlFor="input1">
+        Test input
+        <input type="text" placeholder="Enter any test name" />
+      </label>
       <h2>Description: {description}</h2>
       <button
         onClick={() => {
